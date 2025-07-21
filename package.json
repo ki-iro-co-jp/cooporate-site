@@ -1,9 +1,8 @@
 {
-  "name": "Astrogon",
+  "name": "株式会社キイロ乃カモ",
   "version": "1.0.0",
   "description": "Template.",
-  "author": "Jane Doe",
-  "license": "MIT",
+  "author": "Y.Watanabe",
   "packageManager": "npm@10.8.2",
   "scripts": {
     "dev": "astro dev",
