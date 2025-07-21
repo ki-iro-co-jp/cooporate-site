@@ -1,0 +1,138 @@
+---
+import type { AppsEntry } from "@/types";
+import Share from "@components/common/Share.astro";
+import { Image } from "astro:assets";
+import BaseLayout from "@components/base/BaseLayout.astro";
+import { FaRegClock } from "react-icons/fa";
+import Slider from "./Slider";
+
+interface Props {
+  entry: AppsEntry;
+}
+
+const { entry } = Astro.props;
+const {
+  title,
+  description,
+  image,
+  icon,
+  releaseDate,
+  appStoreUrl,
+  playStoreUrl,
+  screenShots,
+} = entry.data;
+
+function formatDate(dateInput: Date) {
+  const date = new Date(dateInput);
+  const yyyy = date.getFullYear();
+  const mm = String(date.getMonth() + 1).padStart(2, "0");
+  const dd = String(date.getDate()).padStart(2, "0");
+  return `${yyyy}/${mm}/${dd}`;
+}
+---
+
+<BaseLayout title={title} description={description} image={image?.src}>
+  <section class="section">
+    <div class="container">
+      <div class="justify-center">
+        <article >
+          <h1 set:html={title} class="p-2 basis-full min-w-72" />
+          <!-- About -->
+          <section class="p-2 min-w-72">
+            <div
+              class="glass rounded-lg p-8 h-full intersect:animate-fadeUp opacity-0"
+            >
+              {
+                image && (
+                  <div class="p-2 min-w-72">
+                    <div class="rounded-lg intersect:animate-fadeDown opacity-0">
+                      <Image
+                        class="rounded-lg"
+                        src={image}
+                        alt={title}
+                        loading="eager"
+                      />
+                    </div>
+                  </div>
+                )
+              }
+              {
+                description && (
+                  <div class="m-4">
+                    <pre style="white-space: pre-wrap; word-break: break-word;">
+                      {description}
+                    </pre>
+                  </div>
+                )
+              }
+              <hr />
+              {
+                screenShots && (
+                  <div class="py-8">
+                    <Slider
+                      imageSrcs={screenShots.map((i) => i.src)}
+                      client:load
+                    />
+                  </div>
+                )
+              }
+              <hr />
+              {
+                releaseDate && (
+                  <div class="m-4">
+                    <FaRegClock className={"mr-2 -mt-1 inline-block"} />
+                    リリース日: {formatDate(releaseDate)}
+                  </div>
+                )
+              }
+              <hr />
+              <div class="flex justify-start gap-4 pt-4">
+                {
+                  appStoreUrl && (
+                    <div>
+                      <a
+                        href={appStoreUrl}
+                        title="App Store"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src="/images/app_store.svg"
+                          style="height: 50px;"
+                        />
+                      </a>
+                    </div>
+                  )
+                }
+                {
+                  playStoreUrl && (
+                    <div>
+                      <a
+                        href={playStoreUrl}
+                        title="Play Store"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src="/images/play_store.png"
+                          style="height: 50px;"
+                        />
+                      </a>
+                    </div>
+                  )
+                }
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!-- Share -->
+        <div
+          class="flex col-12 p-2 items-center justify-center lg:justify-end px-6"
+        >
+          <Share title={title} folder="apps" id={entry.id} />
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
