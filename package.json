@@ -8,12 +8,14 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "preview": "astro preview",
     "postbuild": "pagefind --site dist",
     "format": "prettier -w ./src"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.0",
     "@astrojs/mdx": "^4.3.0",
+    "@astrojs/netlify": "^6.5.1",
     "@astrojs/react": "^4.3.0",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.4.1",
