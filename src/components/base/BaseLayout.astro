@@ -131,6 +131,15 @@ const baseUrl = "https://ki-iro.co.jp";
     <ClientRouter fallback="swap" />
     <Tooltips interactive={false} delay={[333, 0]} />
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-64W5ZDTX3M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-64W5ZDTX3M');
+  </script>
+
   <body>
     <Background />
     <Header />
