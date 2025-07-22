@@ -30,6 +30,6 @@ title: 利用規約
 
 ##### 7. お問い合わせ
 
-本規約に関するお問い合わせは、<a href="https://docs.google.com/forms/d/e/1FAIpQLSc0pBupOwjvKety-Jm0TdTEzx9T7H4fsX2TX0Ut8CesVNu4fQ/viewform?usp=dialog" target="_blank">こちら</a>からお願いします。
+本規約に関するお問い合わせは、<a href="https://forms.gle/s1gBh3PwH7Z2pncHA" target="_blank">こちら</a>からお願いします。
 
 &copy; 2025 Kiiro No Kamo Co., Ltd.. All rights reserved.

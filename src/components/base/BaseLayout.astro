@@ -19,15 +19,15 @@ export interface Props {
 
 const { title, description, image, noindex, canonical } = Astro.props;
 
-const siteTitle = "Astrogon";
-const siteDescription = "Astrogon is a simple and elegant Astro theme.";
-const siteImage = "@assets/og-image.png";
-const siteAuthor = "Jane Doe";
-const baseUrl = "https://janedoe.com";
+const siteTitle = "株式会社キイロ乃カモ";
+const siteDescription = "株式会社キイロ乃カモは、小樽市でWeb・スマートフォンアプリを開発しています";
+const siteImage = "@assets/icon-512x512.png";
+const siteAuthor = "株式会社キイロ乃カモ";
+const baseUrl = "https://ki-iro.co.jp";
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <!-- favicon -->
     <link
@@ -71,7 +71,7 @@ const baseUrl = "https://janedoe.com";
     />
 
     <title>
-      {plainify(title ? title : siteTitle)}
+      {plainify(title ? `${title} | ${siteTitle}` : siteTitle)}
     </title>
 
     {canonical && <link rel="canonical" href={canonical} item-prop="url" />}

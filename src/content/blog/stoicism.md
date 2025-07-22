@@ -12,7 +12,6 @@ Stoicism, an ancient Greek and Roman philosophy, teaches us how to live a meanin
 
 ## Core Tenets of Stoicism
 
-<img src="/images/jane-doe.jpg" style="height: 200px; margin-left: 20px;">
 
 ### 1. **Control What You Can, Accept What You Can't**
 
