@@ -1,0 +1,5 @@
+---
+title: IT Translation Dictionary
+---
+
+This is a Japanese/English/Chinese translation dictionary of IT terms.It has basic words necessary for IT.No ads and available offline, so you can check the translation of IT terms anytime, anywhere.In an era where IT is becoming more and more important and business is expanding globally, opportunities to use IT-related terminology are necessary.Use this app to streamline your business communication with overseas.■ Abundant number of wordsContains more than 500 words related to IT.■ Search functionYou can search for the word you want to check from the search box and immediately check the translated word.■ Multilingual support　It supports three modes: English,Chinese, and Japanese.　　・English -> Chinese/Japanese　　・Chinese -> English/Japanese　　・Japanese-> English/Chinese

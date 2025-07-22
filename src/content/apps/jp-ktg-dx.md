@@ -1,0 +1,5 @@
+---
+title: DX検定 オリジナル問題集
+---
+
+This application is an original problem collection of the DX test.There are no ads, so you can concentrate on your studies.It can be used offline, so you can study anytime, anywhere.【problem】We have prepared 4 multiple-choice questions that match the format of the actual exam.It is divided into genres, so you can learn in order.You can also ask questions in random order in all chapters.【review】You can check the history of the questions you have taken and review the questions you got wrong.【remarks】We will continue to add more issues in the future.■ What is the DX test? ~ Excerpt from the official website ~[Examination overview]For human resources who promote the use of digital technology in business, which is necessary for the future development of society and business in general, we will introduce cutting-edge IT technology trends and business trends that will turn explosively increasing buzzwords into solid knowledge. A knowledge test that asks a wide range of questions.【name】“DX test ™ (Japan Innovation Fusion Society * ITBT (R) test)”【overview】Knowledge test of IT advanced technology trends (IT) and business trends (BT)

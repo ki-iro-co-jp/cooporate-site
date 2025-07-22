@@ -1,0 +1,5 @@
+---
+title: 技術士 適性科目 過去問集 | 技術士試験の対策アプリ
+---
+
+[No ads! Offline use OK! ]This app is a collection of past questions from the first round of the aptitude subject for the Professional Engineer Examination.Contains past questions from the past four years.There are no ads, so you can concentrate on studying.Additionally, it can be used offline, so you can study to become a certified engineer from anywhere.【problem】You can study past questions separately.The questions are divided into 10 questions, so you can study them in order.You can also randomly ask 10 questions at a time.【review】You can check the status of incorrect or unanswered questions and study efficiently.[Results]Test results can be analyzed using radar charts.【history】You can check the history of the questions you have done and check the questions you got wrong.[Reference]2020 Professional Engineer First Examination Questions [Aptitude Subjects]2020 Professional Engineer First Examination Questions [Aptitude Subjects]2021 Professional Engineer First Examination Questions [Aptitude Subjects]2020 Professional Engineer First Examination Questions [Aptitude Subjects]

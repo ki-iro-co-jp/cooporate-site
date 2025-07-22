@@ -19,14 +19,71 @@ class App:
 #     ),
 # ]
 
-# TODO: https://play.google.com/store/apps/developer?id=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AD%E3%82%A4%E3%83%AD%E4%B9%83%E3%82%AB%E3%83%A2 からスクレイピングして以下の処理を行う
-# - アプリの詳細URL（ /store/apps/details?id=[アプリID]）を取得
-# - アプリのフィーチャー画像（.Shbxxd の中のimg）を取得
+import requests
+from bs4 import BeautifulSoup
+import re
 
-# TODO: 各アプリの詳細画面に対して、以下の処理を行う
-# for app in apps:
-    # TODO: ggl_urlからスクレイピングして、以下の処理をする
-    # - アプリ名、「このアプリについて」（ class=bARER ）を取得し、src/content/apps/{アプリIDのドットをハイフンに変換した文字列}.md
-    # - アプリアイコン画像を取得し、f’/src/assets/apps/{アプリIDのドットをハイフンに変換した文字列}/icon.webp’に保存する
-    # - アプリの巣クイーンショット画像を取得し、f’/src/assets/apps/{アプリIDのドットをハイフンに変換した文字列}/ss{00から始まる画像の連番}.webp’に保存する
+import requests
+from bs4 import BeautifulSoup
+import re
+import os
+
+def get_app_details(app_url):
+    response = requests.get(app_url)
+    soup = BeautifulSoup(response.content, "html.parser")
+
+    app_name = soup.find("h1").text
+
+    about_section = soup.find("div", {"class": "bARER"})
+    description = about_section.text.strip() if about_section else ""
+
+    icon_url = soup.find("img", {"class": "T75of"})["src"]
+
+    return {
+        "name": app_name,
+        "description": description,
+        "icon_url": icon_url,
+    }
+
+def main():
+    developer_url = "https://play.google.com/store/apps/developer?id=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AD%E3%82%A4%E3%83%AD%E4%B9%83%E3%82%AB%E3%83%A2"
+    response = requests.get(developer_url)
+    soup = BeautifulSoup(response.content, "html.parser")
+
+    app_urls = []
+    for a in soup.find_all("a", href=True):
+        if a["href"].startswith("/store/apps/details?id="):
+            app_urls.append(f"https://play.google.com{a['href']}")
+
+    # Remove duplicates
+    app_urls = sorted(list(set(app_urls)))
+
+    for url in app_urls:
+        print(f"Scraping {url}")
+        app_id = url.split("id=")[1]
+        app_id_hyphenated = app_id.replace(".", "-")
+
+        details = get_app_details(url)
+
+        # Create markdown file
+        content_dir = f"src/content/apps"
+        os.makedirs(content_dir, exist_ok=True)
+        with open(f"{content_dir}/{app_id_hyphenated}.md", "w") as f:
+            f.write(f"---\n")
+            f.write(f"title: {details['name']}\n")
+            f.write(f"---\n\n")
+            f.write(details["description"])
+
+        # Download images
+        assets_dir = f"src/assets/apps/{app_id_hyphenated}"
+        os.makedirs(assets_dir, exist_ok=True)
+
+        # Icon
+        icon_response = requests.get(details["icon_url"])
+        with open(f"{assets_dir}/icon.webp", "wb") as f:
+            f.write(icon_response.content)
+
+
+if __name__ == "__main__":
+    main()
 
