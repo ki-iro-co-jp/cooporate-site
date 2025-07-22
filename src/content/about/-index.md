@@ -7,7 +7,7 @@ draft: false
 
 #### iOS & Android
 
-Flutter/dart and Firebase.
+Flutter/Dart
 
 <br />
 
@@ -19,4 +19,10 @@ Next/React
 
 #### Backend
 
-Golang, Python
+Golang, Python, Scala ...
+
+<br />
+
+#### Infrastructure
+
+AWS, Firebase

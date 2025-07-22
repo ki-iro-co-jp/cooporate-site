@@ -1,4 +1,4 @@
 ---
 title: Authors
-description: this is meta description
+description: メンバー一覧です
 ---

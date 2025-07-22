@@ -3,8 +3,8 @@ import type { AppsEntry } from "@/types";
 import Share from "@components/common/Share.astro";
 import { Image } from "astro:assets";
 import BaseLayout from "@components/base/BaseLayout.astro";
-import { FaRegClock } from "react-icons/fa";
 import Slider from "./Slider";
+import dedent from 'dedent';
 
 interface Props {
   entry: AppsEntry;
@@ -16,7 +16,6 @@ const {
   description,
   image,
   icon,
-  releaseDate,
   appStoreUrl,
   playStoreUrl,
   screenShots,
@@ -60,7 +59,7 @@ function formatDate(dateInput: Date) {
                 description && (
                   <div class="m-4">
                     <pre style="white-space: pre-wrap; word-break: break-word;">
-                      {description}
+                      {dedent(description.trim())}
                     </pre>
                   </div>
                 )
@@ -73,15 +72,6 @@ function formatDate(dateInput: Date) {
                       imageSrcs={screenShots.map((i) => i.src)}
                       client:load
                     />
-                  </div>
-                )
-              }
-              <hr />
-              {
-                releaseDate && (
-                  <div class="m-4">
-                    <FaRegClock className={"mr-2 -mt-1 inline-block"} />
-                    リリース日: {formatDate(releaseDate)}
                   </div>
                 )
               }

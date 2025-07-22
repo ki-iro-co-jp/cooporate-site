@@ -1,4 +1,4 @@
 ---
 title: Blog Posts
-description: The blog of Jane and John Doe
+description: ブログ記事の一覧です。
 ---
