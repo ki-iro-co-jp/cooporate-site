@@ -1,11 +1,11 @@
 ---
 import CollectionLayout from "@components/apps/CollectionLayout.astro";
 import { getIndex, getEntries } from "@lib/contentParser";
-import { sortByDate } from "@lib/sortFunctions";
+import { sortByTitle } from "@lib/sortFunctions";
 import type { AppsEntry } from "@/types";
 
 const entryIndex = (await getIndex("apps")) as AppsEntry;
-const entries = (await getEntries("apps", sortByDate)) as AppsEntry[];
+const entries = (await getEntries("apps", sortByTitle)) as AppsEntry[];
 
 const { slug } = Astro.params;
 

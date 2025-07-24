@@ -100,3 +100,20 @@ pre {
   margin: 0;
   padding: 0;
 }
+
+/* 高さを揃えるための共通コンテナ */
+.slide-container {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* 画像のアスペクト比を維持し、高さに合わせる */
+.slide-image {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}

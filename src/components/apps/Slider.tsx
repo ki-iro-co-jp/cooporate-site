@@ -32,7 +32,9 @@ const Slider = ({ imageSrcs }: Props) => {
         <SwiperSlide
           key={src}
         >
-          <img src={src} className="w-full" />
+          <div className="slide-container">
+            <img src={src} className="slide-image" />
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>
