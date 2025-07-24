@@ -71,7 +71,7 @@ const baseUrl = "https://ki-iro.co.jp";
     />
 
     <title>
-      {plainify(title ? `${title} | ${siteTitle}` : siteTitle)}
+      {plainify(title ?? siteTitle)}
     </title>
 
     {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
@@ -142,7 +142,15 @@ const baseUrl = "https://ki-iro.co.jp";
     gtag('js', new Date());
     gtag('config', 'G-64W5ZDTX3M');
   </script>
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "株式会社キイロ乃カモ",
+    "url": "https://ki-iro.co.jp",
+    "logo": "https://ki-iro.co.jp/favicon/icon-256x256.png"
+  }
+  </script>
   <body>
     <Background />
     <Header />
