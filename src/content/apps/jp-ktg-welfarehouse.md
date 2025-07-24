@@ -1,5 +1,81 @@
 ---
 title: 福祉住環境コーディネーター 問題集 2級 医療×福祉×介護
+description: |-
+  【広告なし！解説付き！オフライン使用OK！】
+  本アプリは、福祉住環境コーディネーター検定試験 2級のオリジナル問題集です。
+  広告が一切無く、解説付きのため効率よく学ぶことができます。
+  また、オフラインで使用できるため、場所も問わず福祉住環境コーディネーターの勉強に集中できます。
+  最新の公式テキストとなる改訂6版に対応しています。
+  
+  【問題】
+  実際の試験に合わせた4択問題を用意しています。
+  各章ごとに10問単位で分けて収録しているので、順番に学ぶことができます。
+  また、全ての章からランダムで10問ずつ出題することもできます。
+  
+  【復習】
+  実施した問題については履歴から確認し、間違った問題を復習できます。
+  
+  【福祉住環境コーディネーター検定試験とは】
+  〜公式サイトより〜
+  
+  ■超高齢化社会を迎えた日本で、ますます存在感が高まる検定試験
+  
+  　福祉住環境コーディネーターとは、高齢者や障がい者に対して住みやすい住環境を提案するアドバイザーです。
+  　医療・福祉・建築について体系的で幅広い知識を身につけ、各種の専門職と連携をとりながらクライアントに適切な住宅改修プランを提示します。また福祉用具や諸施策情報などについてもアドバイスします。
+  　バリアフリーとは、段差をなくしてスロープを付けることだけではありません。年のとり方が人それぞれであるように、必要とされるニーズも千差万別です。そのため、クライアントの特性にマッチした住環境を提案・実現するには、様々な分野の専門家とわたり合い調整を行うことのできる総合的な知識が欠かせません。
+  　わが国は世界でも類を見ない速さで超高齢社会に突入しており、あらゆる業界において高齢者を意識したビジネスに大きくシフトしつつあります。このような状況の中、医療・福祉・建築について総合的な知識を身に付けている福祉住環境コーディネーターへの社会的ニーズは確実に高まっています。
+  
+  ■福祉住環境コーディネーター検定試験®はこんな方にオススメ！
+  
+  １　介護の現場で役に立つ！
+  [潜在的なニーズをくみ取る]
+  
+  　ケアマネジャーや福祉用具専門相談員の受験者が増えています。介護サービス利用者とその家族の潜在的なニーズをくみ取るために必要な知識を学ぶことのできる検定試験です。
+  介護の現場では、限られたリソースを組み合わせ、ベストミックスを探らなければなりません。住環境に関する知識が利用者とその家族の満足度を高める解を導くでしょう。
+  
+  ２　知識でビジネスに差をつける！
+  [知識の有無がビジネスに差をつけます。]
+  
+  　お客様が住宅の新築やリフォームという一生を左右する買い物をするにあたり、企業選定の決め手とするものは何でしょうか。
+  そのひとつに、営業担当者が自分特有の事情を正確に理解・把握し、それを的確に反映した提案をしてくれるかどうかということが挙げられます。 お客様自身も気が付いていなかったニーズを提案することが信用・信頼につながるでしょう。
+  
+  ３　住宅の営業で顧客の信頼を得る！
+  [「医療×福祉×建築」の総合的な知識]
+  
+  　パンフレットや説明書に書いてあることを読み上げるだけの営業でお客の信頼を得ることは難しく、知識の有無が状況認識力や提案力の差になって表れます。
+  　この検定試験で身に付けることのできる「医療×福祉×建築」の総合的な知識は、必ずや営業における武器となります。
+  
+  ４　自宅の新築・リフォームに！
+  [住宅に対するニーズは人それぞれ]
+  
+  　自宅を新築にしたりリフォームするにあたり、工務店の提案を鵜呑みにするだけでよいでしょうか。
+  　住宅に対するニーズは人それぞれ、千差万別なはずです。自身にとって必要なことと必要でないことを的確に説明できるようになることが、満足のいく住環境整備に欠かせないファーストステップです。
+  　家族のために自分自身のために、福祉住環境コーディネーターの勉強をしてみませんか。
+  
+  【Reference】
+  福祉住環境コーディネーター 検定試験® 2級公式テキスト＜改訂6版＞
+icon: "@assets/apps/jp-ktg-welfarehouse/icon.webp"
+image: "@assets/apps/jp-ktg-welfarehouse/vis.webp"
+appStoreUrl: https://apps.apple.com/jp/app/%E7%A6%8F%E7%A5%89%E4%BD%8F%E7%92%B0%E5%A2%83%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%8D%E3%83%BC%E3%82%BF%E3%83%BC-%E5%95%8F%E9%A1%8C%E9%9B%86-2%E7%B4%9A-%E5%8C%BB%E7%99%82-%E7%A6%8F%E7%A5%89-%E4%BB%8B%E8%AD%B7/id6450543581
+playStoreUrl: https://play.google.com/store/apps/details?id=jp.ktg.welfarehouse
+screenShots:
+  - "@assets/apps/jp-ktg-welfarehouse/ss00.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss01.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss02.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss03.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss04.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss05.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss06.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss07.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss08.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss09.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss10.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss11.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss12.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss13.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss14.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss15.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss16.webp"
+  - "@assets/apps/jp-ktg-welfarehouse/ss17.webp"
 ---
 
-[No ads! With commentary! Offline use OK! ]This app is a collection of original questions for the Welfare Living Environment Coordinator Test 2nd Grade.There are no advertisements and explanations are provided, so you can learn efficiently.In addition, since it can be used offline, you can concentrate on studying as a welfare housing environment coordinator regardless of location.It corresponds to the revised 6th edition which is the latest official text.【problem】We have prepared 4 multiple-choice questions that match the actual exam.Each chapter is divided into 10-question units, so you can learn in order.You can also randomly ask 10 questions from all chapters.【review】You can check the history of the questions you have taken and review the questions you got wrong.[What is the Welfare Living Environment Coordinator Test?]~From the official site~■Certificate exams are gaining more and more presence in Japan, which has become a super-aging societyA welfare living environment coordinator is an advisor who proposes a comfortable living environment for the elderly and people with disabilities.Acquire systematic and wide-ranging knowledge about medical care, welfare, and architecture, and present appropriate home renovation plans to clients while collaborating with various specialists. We also advise on welfare equipment and information on various measures."Barrier-free" means more than just removing steps and adding ramps. Just as people age differently, so do their needs. Therefore, in order to propose and realize a living environment that matches the characteristics of the client, it is essential to have comprehensive knowledge that allows us to coordinate with experts in various fields.Our country is entering a super-aged society at an unprecedented speed in the world, and there is a major shift to businesses that are conscious of the elderly in all industries. Under these circumstances, social needs for welfare housing environment coordinators who have comprehensive knowledge of medical care, welfare, and construction are steadily increasing.■Welfare Living Environment Coordinator Test ® is recommended for the following people!1 Useful in nursing care![Understanding latent needs]The number of applicants for care managers and welfare equipment specialist counselors is increasing. This is a certification exam that allows you to learn the knowledge necessary to understand the latent needs of nursing care service users and their families.At nursing care sites, we have to combine limited resources and search for the best mix. Knowledge of the living environment will lead to solutions that increase the satisfaction of users and their families.2. Differentiate your business with knowledge![Knowledge or lack of knowledge makes a difference in business. ]What is the decisive factor in choosing a company when a customer decides to make a life-changing purchase such as building a new home or renovating a house?One of them is whether or not the sales representative accurately understands and grasps their own unique circumstances and makes proposals that accurately reflect them. Proposing needs that the customer himself was not aware of will lead to credibility and trust.3 Earn the trust of customers in housing sales![Comprehensive knowledge of "Medical x Welfare x Architecture"]It is difficult to gain the trust of customers by simply reading out what is written in pamphlets and manuals, and the presence or absence of knowledge is reflected in the difference in situational awareness and ability to make proposals.The comprehensive knowledge of "medical x welfare x architecture" that can be acquired through this certification exam will definitely become a weapon in sales.4. For new construction or renovation of your home![Everyone has different housing needs]When building or renovating your home, should you just accept the proposal of the construction company without question?Each person's needs for housing should be infinitely different. Being able to accurately explain what you need and what you don't need is the first step that is essential for creating a satisfying living environment.For your family's sake, why don't you study as a welfare housing environment coordinator?[Reference]Welfare Residential Environment Coordinator Certification Exam® 2nd Grade Official Text

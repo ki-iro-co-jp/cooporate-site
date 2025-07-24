@@ -75,8 +75,11 @@ const baseUrl = "https://ki-iro.co.jp";
     </title>
 
     {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
-    {noindex && <meta name="robots" content="noindex,nofollow" />}
-
+    {
+      noindex 
+      ? <meta name="robots" content="noindex,nofollow" />
+      : <meta name="robots" content="index, follow" />
+    }
     <meta
       name="description"
       content={plainify(description ? description : siteDescription)}

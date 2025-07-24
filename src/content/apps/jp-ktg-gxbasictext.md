@@ -1,5 +1,60 @@
 ---
 title: GX単語帳 ベーシック
+description: |-
+  【広告なし！オフライン使用可能！】
+  本アプリは、GX検定ベーシックの単語帳アプリです。
+  広告が一切無く、効率よく学ぶことができます。
+  また、オフラインで使用できるため、場所も問わずGX検定ベーシックの勉強に集中できます。
+  
+  【機能】
+  GX検定ベーシックにて必要となる重要語句を収録しています。
+  また、重要語句をマスクするクイズモードを搭載しており、重要語句を理解できているかの簡単な確認チェックも可能です。
+  その他、検索機能やランダム遷移機能を搭載しています。
+  
+  【GX検定ベーシックについて】
+  〜公式サイトより〜
+  
+  ■GX検定 ベーシックとは
+  　GX検定 ベーシックは、環境省認定制度『脱炭素アドバイザー ベーシック』認定のGX入門レベルの検定です。脱炭素社会、サスティナビリティ経営時代の共通リテラシーとして身につけておくべき内容を網羅的に抑え、断片的なキーワード理解から抜け出しGXの体系的な基礎知識を習得できます。全社員のリテラシーを底上げし、GXの取り組みを加速させる一歩としても有効です。
+  
+  ■こんな方におすすめ
+  　脱炭素、GXに取り組む企業の全社員のリテラシー向上に役立ちます！
+  　・GX 推進・サステイナブル部門の新規担当者
+  　・取引先とGXに関連するテーマで会話が必要な営業部門
+  　・自社の変革を推進する経営者・トップマネージャー
+  　・ESGやSDGsに関連の深い注目分野の基礎知識や時事トレンドは抑えておきたい
+  
+  ■GX検定 ベーシックが目指す人材像
+  　基本的な国内外動向・ルール・標準等を理解し、企業の気候変動に関する開示意義が説明できる
+  　・排出量算定の基本的な考え方を理解している
+  　・自社のサステナビリティ・GXに関する取り組み状況を理解している
+  　・取引先とGXに関連するテーマで話ができる
+  
+  ■得られる知識
+  　脱炭素の背景：気候変動問題の原因、その対策としての脱炭素・カーボンニュートラルの定義と関連する国際団体・会議について学びます。
+  　国内外の動向：脱炭素に向けたグローバルトレンドをはじめ、世界のGHG排出状況、主要国の炭素生産性・削減目標・対策、及び日本の2050年カーボンニュートラル宣言と関連政策・戦略について解説します。
+  　削減実行：削減手段としての様々な脱炭素ソリューションや、脱炭素化を支える技術の概要をさらいます。
+  　排出量算定：Scope1,2,3の基本的な考え方・算定方法について理解します。
+  　情報開示：脱炭素経営の全体像とTCFDやSBTといった取り組みの開示や目標について学びます。
+icon: "@assets/apps/jp-ktg-gxbasictext/icon.webp"
+image: "@assets/apps/jp-ktg-gxbasictext/vis.webp"
+appStoreUrl: https://apps.apple.com/jp/app/gx%E5%8D%98%E8%AA%9E%E5%B8%B3-%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF-gx%E3%81%AE%E8%A9%A6%E9%A8%93%E5%AF%BE%E7%AD%96%E7%94%A8%E5%8B%89%E5%BC%B7%E3%82%A2%E3%83%97%E3%83%AA/id6670433664
+playStoreUrl: https://play.google.com/store/apps/details?id=jp.ktg.gxbasictext
+screenShots:
+  - "@assets/apps/jp-ktg-gxbasictext/ss00.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss01.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss02.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss03.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss04.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss05.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss06.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss07.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss08.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss09.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss10.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss11.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss12.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss13.webp"
+  - "@assets/apps/jp-ktg-gxbasictext/ss14.webp"
 ---
 
-[No ads! Can be used offline! ]This app is a GX test basic vocabulary book app.There are no ads, so you can learn efficiently.Additionally, since it can be used offline, you can concentrate on studying for the GX Certification Basics regardless of your location.【function】Contains important words and phrases required for the GX Test Basic.It also has a quiz mode that masks important words, allowing you to easily check whether you understand the important words.In addition, it is equipped with a search function and random transition function.[About GX Test Basic]~From the official website~■What is GX Certification Basic?GX Certification Basic is an introductory GX certification certified by the Ministry of the Environment's "Decarbonization Advisor Basic" certification system. It comprehensively covers the content that should be acquired as common literacy in the era of decarbonized society and sustainability management, and allows you to break away from a fragmented understanding of keywords and acquire systematic basic knowledge of GX. It is also an effective step to raise the literacy level of all employees and accelerate GX initiatives.■Recommended for these peopleIt will help improve the literacy of all employees of companies working on decarbonization and GX!・New person in charge of GX Promotion/Sustainability Department・Sales departments that need to have conversations with business partners on topics related to GX・Executives and top managers who promote change in their company・I want to have basic knowledge and current trends in areas of interest closely related to ESG and SDGs■GX Certification Basic's ideal human resources imageUnderstand basic domestic and international trends, rules, standards, etc., and be able to explain the significance of corporate disclosure regarding climate change.・Understand the basic concept of emissions calculation・Understand the status of your company's sustainability and GX initiatives・Able to discuss GX-related topics with business partners■Knowledge gainedBackground of decarbonization: Learn about the causes of climate change, the definition of decarbonization and carbon neutrality as countermeasures, and related international organizations and conferences.Domestic and international trends: We will explain global trends toward decarbonization, the world's GHG emissions situation, major countries' carbon productivity and reduction targets and measures, and Japan's 2050 carbon neutral declaration and related policies and strategies. .Reduction implementation: We will provide an overview of various decarbonization solutions as reduction methods and technologies that support decarbonization.Emissions calculation: Understand the basic concepts and calculation methods of Scope 1, 2, and 3.Information disclosure: Learn about the overall picture of decarbonized management and the disclosure and goals of initiatives such as TCFD and SBT.
