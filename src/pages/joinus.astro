@@ -1,0 +1,9 @@
+---
+import type { JoinusEntry } from "@/types";
+import EntryLayout from "@components/joinus/EntryLayout.astro";
+import { getIndex } from "@lib/contentParser";
+
+const entry = (await getIndex("joinus")) as JoinusEntry;
+---
+
+<EntryLayout entry={entry} />

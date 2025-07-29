@@ -115,6 +115,11 @@ const terms = defineCollection({
   schema: searchable,
 });
 
+const joinus = defineCollection({
+  loader: glob({ pattern: "-index.{md,mdx}", base: "./src/content/joinus" }),
+  schema: searchable,
+});
+
 // Export collections
 export const collections = {
   about,
@@ -124,4 +129,5 @@ export const collections = {
   home,
   apps,
   terms,
+  joinus,
 };

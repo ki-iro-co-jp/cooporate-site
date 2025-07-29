@@ -8,11 +8,9 @@ export type AuthorsEntry = CollectionEntry<"authors">;
 export type BlogEntry = CollectionEntry<"blog">;
 export type DocsEntry = CollectionEntry<"docs">;
 export type HomeEntry = CollectionEntry<"home">;
-export type IndexCardsEntry = CollectionEntry<"indexCards">;
-export type PoetryEntry = CollectionEntry<"poetry">;
-export type PortfolioEntry = CollectionEntry<"portfolio">;
 export type AppsEntry = CollectionEntry<"apps">;
 export type TermsEntry = CollectionEntry<"terms">;
+export type JoinusEntry = CollectionEntry<"joinus">;
 
 export type SearchableEntry =
   | AboutEntry
@@ -22,7 +20,9 @@ export type SearchableEntry =
   | PoetryEntry
   | PortfolioEntry
   | AppsEntry
-  | TermsEntry;
+  | TermsEntry
+  | JoinusEntry
+  ;
 
 export type SocialLinks = {
   discord?: string;
