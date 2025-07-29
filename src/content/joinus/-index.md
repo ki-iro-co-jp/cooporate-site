@@ -90,7 +90,7 @@ draft: false
 
 <br />
 
-<a href="https://forms.gle/E1nL63xdBmY3kAPo6" target="_blank">インターン応募フォーム</a><br />
+<a href="https://forms.gle/E1nL63xdBmY3kAPo6" target="_blank" style="text-decoration: underline; font-size: 24px; color: #b7282d;">インターン応募フォーム</a><br />
 
 <br />
 
