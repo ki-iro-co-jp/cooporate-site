@@ -4,7 +4,7 @@ description: プレーンなHTML/CSSで作られた弊社コーポレートサ�
 date: 2025-07-22
 categories: [Web]
 author: y-watanabe
-tags: [astro, react, typescript]
+tags: [Astro, React, TypeScript, Netlify]
 hideToc: false
 complexity: 50
 ---

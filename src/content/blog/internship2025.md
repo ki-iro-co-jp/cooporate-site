@@ -4,7 +4,7 @@ description: 将来のIT業界を担う学生の皆さまを対象にインタ�
 date: 2025-07-29
 categories: [Joinus]
 author: y-watanabe
-tags: [internship, joinus]
+tags: [Internship, Joinus]
 hideToc: false
 complexity: 50
 ---
