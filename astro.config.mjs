@@ -11,4 +11,9 @@ export default defineConfig({
     react(),
     sitemap(),
   ],
+  markdown: {
+    shikiConfig: {
+      theme: 'dracula',
+    },
+  },
 });

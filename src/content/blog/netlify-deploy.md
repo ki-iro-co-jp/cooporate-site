@@ -21,9 +21,12 @@ complexity: 10
 
 ChatGPTに尋ねると、ユーザエージェントをGoogleのbotのものにしてcURLすると確認できる、とのことだったので、早速下記のコマンドで確認。
 
-<pre class="code">curl -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" -I https://ki-iro.co.jp/apps/jp-ktg-eco/</pre>
+```sh
+curl -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" -I https://ki-iro.co.jp/apps/jp-ktg-eco/
+```
 
-<pre class="code">HTTP/2 504
+```sh
+HTTP/2 504
 age: 28
 cache-control: private,max-age=0
 cache-status: "Netlify Edge"; fwd=miss
@@ -33,7 +36,7 @@ server: Netlify
 strict-transport-security: max-age=31536000
 x-nf-request-id: 01K1A3YBMRZ14FJR4QEZ4ES924
 content-length: 0
-</pre>
+```
 
 エラーになっていました。
 
@@ -57,10 +60,12 @@ Build & deploy settings > Post processing > Prerendering
 
 すると、
 
-<pre class="code">curl -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" -I https://ki-iro.co.jp/apps/jp-ktg-eco/
-</pre>
+```sh
+curl -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" -I https://ki-iro.co.jp/apps/jp-ktg-eco/
+```
 
-<pre class="code">HTTP/2 200
+```sh
+HTTP/2 200
 accept-ranges: bytes
 age: 0
 cache-control: public,max-age=0,must-revalidate
@@ -72,6 +77,6 @@ server: Netlify
 strict-transport-security: max-age=31536000
 x-nf-request-id: 01K1A4T52B07NZR7ZW7KM6JC6Z
 content-length: 36103
-</pre>
+```
 
 200を返すようになりました🎉

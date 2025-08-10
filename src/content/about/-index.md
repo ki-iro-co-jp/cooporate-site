@@ -7,13 +7,13 @@ draft: false
 
 #### iOS & Android
 
-Flutter/Dart
+Flutter/ Dart
 
 <br />
 
 #### Web
 
-Next/React
+Next/ React/ TypeScript
 
 <br />
 
