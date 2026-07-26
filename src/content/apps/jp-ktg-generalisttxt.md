@@ -5,7 +5,6 @@ description: |-
   本アプリは、G検定の単語帳アプリです。
   広告が一切無く、効率よく重要語句を学ぶことができます。
   また、オフラインで使用できるため、場所も問わずG検定の勉強に集中できます。
-  最新の公式テキストとなる第2版に対応しています。
   
   【機能】
   G検定にて必要となる重要語句を収録しています。
@@ -48,9 +47,6 @@ description: |-
   　　・会社のDXに向けてリテラシーを向上させたい
   　　・エンジニアとの連携を深めたい
   　　・ITベンダーとの協業を円滑に進行したい
-  
-  【Reference】
-  　深層学習教科書ディープラーニングG検定(ジェネラリスト) 公式テキスト 第2版
 icon: "@assets/apps/jp-ktg-generalisttxt/icon.webp"
 image: "@assets/apps/jp-ktg-generalisttxt/vis.webp"
 appStoreUrl: https://apps.apple.com/jp/app/g%E6%A4%9C%E5%AE%9A-%E5%8D%98%E8%AA%9E%E5%B8%B3/id6478640189
@@ -68,8 +64,5 @@ screenShots:
   - "@assets/apps/jp-ktg-generalisttxt/ss09.webp"
   - "@assets/apps/jp-ktg-generalisttxt/ss10.webp"
   - "@assets/apps/jp-ktg-generalisttxt/ss11.webp"
-  - "@assets/apps/jp-ktg-generalisttxt/ss12.webp"
-  - "@assets/apps/jp-ktg-generalisttxt/ss13.webp"
-  - "@assets/apps/jp-ktg-generalisttxt/ss14.webp"
 ---
 

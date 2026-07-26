@@ -68,7 +68,22 @@ ios_urls = {
     "jp.ktg.fp3": "https://apps.apple.com/jp/app/fp3%E7%B4%9A-%E9%81%8E%E5%8E%BB%E5%95%8F%E3%82%A2%E3%83%97%E3%83%AA/id6473820711",
     "jp.ktg.housecompare": "https://apps.apple.com/jp/app/%E4%BD%8F%E5%AE%85%E7%89%A9%E4%BB%B6%E6%AF%94%E8%BC%83-%E9%83%A8%E5%B1%8B%E6%8E%A2%E3%81%97-%E3%81%8A%E5%AE%B6%E6%8E%A2%E3%81%97%E3%82%92%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88-%E4%B8%AD%E5%8F%A4%E6%96%B0%E7%AF%89%E5%AF%BE%E5%BF%9C/id6742167699",
     "jp.ktg.carpare": "https://apps.apple.com/jp/app/%E8%BB%8A%E6%AF%94%E8%BC%83-%E8%BB%8A%E3%81%95%E3%81%8C%E3%81%97%E3%82%92%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88-%E6%96%B0%E8%BB%8A-%E4%B8%AD%E5%8F%A4%E8%BB%8A%E5%AF%BE%E5%BF%9C/id6743841144",
+    "jp.ktg.insurancebasic": "https://apps.apple.com/jp/developer/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AD%E3%82%A4%E3%83%AD%E4%B9%83%E3%82%AB%E3%83%A2/id1796537168",
+    "jp.ktg.insuranceunivlaw": "https://apps.apple.com/jp/app/%E6%90%8D%E4%BF%9D%E5%A4%A7%E5%AD%A6%E8%AA%B2%E7%A8%8B-%E6%B3%95%E5%BE%8B%E5%8D%98%E4%BD%8D-%E5%95%8F%E9%A1%8C%E9%9B%86-%E6%90%8D%E5%AE%B3%E4%BF%9D%E9%99%BA%E5%A4%A7%E5%AD%A6%E8%AA%B2%E7%A8%8B%E5%B0%82%E9%96%80%E3%82%B3%E3%83%BC%E3%82%B9/id6763822017",
+    "jp.co.kiiro.familiarnote": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%82%A2%E3%83%8E%E3%83%BC%E3%83%88/id6753338947",
+    "jp.ktg.insuranceinjuly": "https://apps.apple.com/jp/app/%E6%90%8D%E5%AE%B3%E4%BF%9D%E9%99%BA%E5%8B%9F%E9%9B%86%E4%BA%BA%E4%B8%80%E8%88%AC%E8%A9%A6%E9%A8%93-%E5%82%B7%E5%AE%B3%E7%96%BE%E7%97%85%E4%BF%9D%E9%99%BA%E5%8D%98%E4%BD%8D-%E5%95%8F%E9%A1%8C%E9%9B%86/id6755899888",
+    "jp.ktg.insurancecar": "https://apps.apple.com/jp/developer/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AD%E3%82%A4%E3%83%AD%E4%B9%83%E3%82%AB%E3%83%A2/id1796537168",
+    "jp.ktg.insurancefire": "https://apps.apple.com/jp/app/%E6%90%8D%E5%AE%B3%E4%BF%9D%E9%99%BA%E5%8B%9F%E9%9B%86%E4%BA%BA%E4%B8%80%E8%88%AC%E8%A9%A6%E9%A8%93-%E7%81%AB%E7%81%BD%E4%BF%9D%E9%99%BA%E5%8D%98%E4%BD%8D-%E5%95%8F%E9%A1%8C%E9%9B%86/id6755899857",
+    "jp.ktg.awsccpfree": "https://apps.apple.com/jp/app/aws-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%BC-%E5%95%8F%E9%A1%8C%E9%9B%86-lite%E7%89%88/id6757463630",
+    "jp.ktg.awssaa": "https://apps.apple.com/jp/app/aws-%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%88%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88-%E5%95%8F%E9%A1%8C%E9%9B%86%E3%82%A2%E3%83%97%E3%83%AA/id6751763123",
+    "jp.ktg.epubcreator": "https://apps.apple.com/jp/app/%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E4%BD%9C%E6%88%90%E3%82%A2%E3%83%97%E3%83%AA-e-book-studio/id6756200055",
+    "jp.ktg.tamatebakocontext": "https://apps.apple.com/jp/app/%E7%8E%89%E6%89%8B%E7%AE%B1-images-%E8%B6%A3%E6%97%A8%E5%88%A4%E5%AE%9A%E5%AF%BE%E7%AD%96-%E5%95%8F%E9%A1%8C%E9%9B%86/id6755622805",
+    "jp.ktg.jlptn4": "https://apps.apple.com/jp/app/jlpt-n4-wordbook/id6749479220",
+    "jp.ktg.jlptn3": "https://apps.apple.com/jp/app/jlpt-n3-wordbook/id6749493796",
+    "jp.ktg.insuranceunivtax": "https://apps.apple.com/jp/app/%E6%90%8D%E4%BF%9D%E5%A4%A7%E5%AD%A6%E8%AA%B2%E7%A8%8B-%E7%A8%8E%E5%8B%99%E5%8D%98%E4%BD%8D-%E5%95%8F%E9%A1%8C%E9%9B%86-%E6%90%8D%E5%AE%B3%E4%BF%9D%E9%99%BA%E5%A4%A7%E5%AD%A6%E8%AA%B2%E7%A8%8B%E5%B0%82%E9%96%80%E3%82%B3%E3%83%BC%E3%82%B9/id6790034925",
+    # "": "",
 }
+
 
 def get_app_details(app_url):
     response = requests.get(app_url, headers=headers)
@@ -77,14 +92,16 @@ def get_app_details(app_url):
 
     about_section = soup.find("div", {"class": "bARER"})
     for br in about_section.select("br"):
-        br.replace_with('\n  ')
+        br.replace_with("\n  ")
     description = about_section.get_text() if about_section else ""
     icon_url = soup.find("img", {"class": "T75of"})["src"]
     # print(icon_url)
 
     capture_urls = []
     for capture in soup.select(".qwPPwf img"):
-        capture_urls.append(capture.attrs['src'].replace("w526-h296-rw", "w1052-h592-rw"))
+        capture_urls.append(
+            capture.attrs["src"].replace("w526-h296-rw", "w1052-h592-rw")
+        )
 
     return {
         "name": app_name,
@@ -92,6 +109,7 @@ def get_app_details(app_url):
         "icon_url": icon_url,
         "capture_urls": capture_urls,
     }
+
 
 def main():
     with open("scripts/source.txt", "r", encoding="utf-8") as file:
@@ -105,16 +123,24 @@ def main():
     #         app_urls.append(f"https://play.google.com{a['href']}")
 
     for app_div in soup.select(".ULeU3b"):
-        print(app_div.select_one('a').attrs['href'])
-        app_urls.append(f"https://play.google.com{app_div.select_one('a').attrs['href']}")
+        print(app_div.select_one("a").attrs["href"])
+        app_urls.append(
+            f"https://play.google.com{app_div.select_one('a').attrs['href']}"
+        )
         # print(app_div.select_one('.T75of').attrs['src'])
-        feature_image_urls.append(app_div.select_one('.T75of').attrs['src'].replace("w416-h235", "w832-h470"))
+        feature_image_urls.append(
+            app_div.select_one(".T75of").attrs["src"].replace("w416-h235", "w832-h470")
+        )
 
-    print(f"len(app_urls): {len(app_urls)}, len(feature_image_urls): {len(feature_image_urls)}")
+    print(
+        f"len(app_urls): {len(app_urls)}, len(feature_image_urls): {len(feature_image_urls)}"
+    )
 
     if len(app_urls) != len(feature_image_urls):
         print("Something Wrong.")
-        print(f"len(app_urls): {len(app_urls)}, len(feature_image_urls): {len(feature_image_urls)}")
+        print(
+            f"len(app_urls): {len(app_urls)}, len(feature_image_urls): {len(feature_image_urls)}"
+        )
         exit(1)
 
     # Remove duplicates
@@ -128,7 +154,7 @@ def main():
         ios_url = ios_urls.get(app_id)
         if not ios_url:
             print(f"iOS URL Not set [{app_id}]")
-        
+
         app_id_hyphenated = app_id.replace(".", "-")
         details = get_app_details(url)
 
@@ -147,7 +173,9 @@ def main():
             f.write(f"playStoreUrl: {url}\n")
             f.write("screenShots:\n")
             for capture_url_index, _ in enumerate(details["capture_urls"]):
-                f.write(f'  - "@assets/apps/{app_id_hyphenated}/ss{str(capture_url_index).zfill(2)}.webp"\n')
+                f.write(
+                    f'  - "@assets/apps/{app_id_hyphenated}/ss{str(capture_url_index).zfill(2)}.webp"\n'
+                )
             f.write(f"---\n\n")
 
         # Download images
@@ -158,7 +186,7 @@ def main():
         icon_response = requests.get(details["icon_url"], headers=headers)
         with open(f"{assets_dir}/icon.webp", "wb") as f:
             f.write(icon_response.content)
-        
+
         vis_response = requests.get(feature_image_urls[app_url_index], headers=headers)
         with open(f"{assets_dir}/vis.webp", "wb") as f:
             f.write(vis_response.content)
@@ -166,11 +194,12 @@ def main():
         # Capture
         for capture_url_index, capture_url in enumerate(details["capture_urls"]):
             capture_response = requests.get(capture_url, headers=headers)
-            with open(f"{assets_dir}/ss{str(capture_url_index).zfill(2)}.webp", "wb") as f:
+            with open(
+                f"{assets_dir}/ss{str(capture_url_index).zfill(2)}.webp", "wb"
+            ) as f:
                 f.write(capture_response.content)
         # break
 
 
 if __name__ == "__main__":
     main()
-
